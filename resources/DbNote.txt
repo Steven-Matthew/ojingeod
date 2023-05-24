@@ -1,0 +1,35 @@
+List Table :
+
+1. Book :
+-book_id
+-publisher_id
+-Image (text)
+-title (string)
+-author(string)
+-synopsis (text)
+
+2. Publisher : 
+-publisher_id
+-Logo(text)
+-name(string)
+-address(string)
+-phone(string)
+-email(string)
+-bookList(string)
+
+3. category :
+- category_id
+- category
+
+4. detail :
+-category_id
+-book_id
+
+
+NOTE :
+
+1. nama table migrations itu dalam bentuk jamak dan huruf kecil semua contoh create_books_table, create_authors_table
+2. nama Models itu bentuk tunggal dan diawali dengan huruf besar
+3. nama seeders itu ditulis dengan bentuk jamak dari nama table, kemudian ditambahkan "Seeder". Misal BooksSeeder, AuthorsSeeder, dll
+
+
